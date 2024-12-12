@@ -82,6 +82,9 @@ CREATE TABLE `drawings` (<br>
   CONSTRAINT `drawings_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)<br>
 ) ENGINE=InnoDB AUTO_INCREMENT=61709 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin<br>
 
+<h3>⏳제작 기간</h3>
+2024/12/03 - 2024/12/10
+
 <h3>😢아쉬운 점</h3>
 파일 업로드 기능 미구현(나중에 구현 할수도?)<br>
 다른 클라이언트의 정보가 업데이트 되었을 때, 서버가 다른 클라이언트에게도 정보를 알아서 보내 주었으면 좋겠다.(서버가 쓸데없는 요청을 많이 보내게 됨)<br>
